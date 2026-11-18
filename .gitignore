@@ -15,3 +15,7 @@ venv/
 # Site
 site/node_modules/
 site/dist/
+
+# Rapport Power BI avec données (350 Mo, au-delà de la limite GitHub) : seul le modèle .pbit est versionné
+powerbi/*.pbix
+docs/screenshots/*.pdf

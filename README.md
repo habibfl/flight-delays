@@ -42,6 +42,20 @@ de vols en retard ; le classement de 2024 se retrouve en 2025 (corrélation des 
 le shutdown du gouvernement fédéral (1er octobre au 12 novembre 2025). Les données montrent la
 coïncidence, pas à elles seules la cause.
 
+## Rapport Power BI
+
+Modèle de rapport `powerbi/flight-delays.pbit` (modèle en étoile, mesures DAX, mise en page), sans
+les données : à l'ouverture, Power BI recharge les fichiers Parquet exportés par le pipeline
+(le rapport complet avec 14 millions de vols pèse 350 Mo, trop pour GitHub). Thème : `powerbi/theme.json`. Guide complet : [docs/powerbi.md](docs/powerbi.md).
+
+**Vue d'ensemble** : chiffres clés, saisonnalité des retards, classement des compagnies.
+
+![Rapport Power BI, vue d'ensemble](docs/screenshots/powerbi-vue-ensemble.png)
+
+**Météo** : part des vols en retard et annulés selon le temps à l'aéroport de départ.
+
+![Rapport Power BI, météo](docs/screenshots/powerbi-meteo.png)
+
 ## Sommaire
 
 1. [Questions](#1-questions)
