@@ -6,7 +6,7 @@ météo horaire de leur aéroport de départ : pipeline de collecte, entrepôt D
 requêtes SQL, analyses statistiques, modèle prédictif évalué, data story en ligne et
 rapport Power BI.
 
-**Data story en ligne : _lien Vercel à ajouter après le déploiement_**
+**Data story en ligne : [flight-delays-one.vercel.app](https://flight-delays-one.vercel.app)**
 
 **14 M de vols · 2 ans · 50 aéroports suivis heure par heure · 4 sources croisées**
 

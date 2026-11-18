@@ -1,6 +1,6 @@
 :root {
-  --night: #110f2e;
-  --night-2: #1b1840;
+  --night: #141414;
+  --night-2: #1f1f1f;
   --paper: #ffffff;
   --paper-2: #f6f5f1;
   --ink: #1a1a1a;
@@ -32,13 +32,13 @@ body {
 }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--orange); }
-::selection { background: var(--amber); color: var(--night); }
+::selection { background: #1a1a1a; color: #fff; }
 
 /* ---------- Hero (fond nuit, avions en orbite) ---------- */
 .hero {
   min-height: 100svh;
   background: var(--night);
-  color: #ecebf5;
+  color: #f4f4f2;
   display: grid;
   grid-template-rows: auto 1fr auto;
   padding: 22px clamp(20px, 5vw, 56px) 28px;
@@ -53,7 +53,7 @@ a:hover { color: var(--orange); }
 .hero-nav .brand { font-family: var(--display); font-weight: 600; letter-spacing: 0.01em; }
 .hero-nav nav { display: flex; gap: 22px; }
 .hero-nav a { text-decoration: none; opacity: 0.85; }
-.hero-nav a:hover { opacity: 1; color: var(--amber); }
+.hero-nav a:hover { opacity: 1; color: #fff; text-decoration: underline; }
 .hero-body {
   display: grid;
   grid-template-columns: minmax(260px, 0.9fr) 1.1fr;
@@ -72,10 +72,11 @@ a:hover { color: var(--orange); }
   margin: 0 0 26px;
   letter-spacing: -0.005em;
 }
-.hero-text h1 b { color: var(--amber); font-weight: 700; }
+.hero-text h1 { color: #8c8c88; }
+.hero-text h1 b { color: #ffffff; font-weight: 700; }
 .hero-text p {
   font-size: 17px;
-  color: #b9b6d3;
+  color: #a3a3a0;
   margin: 0;
   max-width: 34em;
 }
@@ -85,7 +86,7 @@ a:hover { color: var(--orange); }
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8f8bb3;
+  color: #8c8c88;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -260,7 +261,7 @@ a:hover { color: var(--orange); }
   height: 34px;
   border-radius: 50%;
   background: var(--night);
-  color: var(--amber);
+  color: #fff;
   font-family: var(--display);
   font-weight: 700;
   display: grid;
@@ -279,12 +280,12 @@ a:hover { color: var(--orange); }
 .method li { margin-bottom: 6px; }
 .footer {
   background: var(--night);
-  color: #b9b6d3;
+  color: #a3a3a0;
   padding: 44px 22px;
   font-size: 15px;
 }
 .footer .inner { max-width: 1060px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 18px; }
-.footer a { color: #ecebf5; }
+.footer a { color: #f4f4f2; }
 .footer .brand { font-family: var(--display); color: #fff; font-weight: 600; }
 
 .loading { min-height: 50vh; display: grid; place-items: center; color: var(--muted); font-family: var(--mono); font-size: 13px; }
