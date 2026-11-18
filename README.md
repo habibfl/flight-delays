@@ -111,7 +111,7 @@ compagnies (CSV local) ───┘                                          ├
 | Analyse | SQL, scipy, statsmodels | tests et régressions sur les vols agrégés ou échantillonnés |
 | Modèle | scikit-learn | gradient boosting et régression logistique, découpage temporel |
 | Restitution web | React, D3.js, Vite | data story publiée sur Vercel |
-| Restitution BI | Power BI | 6 pages, une question par page |
+| Restitution BI | Power BI | rapport « Vue d'ensemble » et « Météo », mesures DAX |
 
 ## 4. Données et qualité
 
