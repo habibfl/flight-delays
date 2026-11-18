@@ -1,0 +1,17 @@
+# Données téléchargées et générées (plusieurs Go) : recréées par le pipeline
+data/raw/
+data/staging/
+data/warehouse/
+data/powerbi/
+*.part
+
+__pycache__/
+.pytest_cache/
+venv/
+.venv/
+.ipynb_checkpoints/
+*.pbix.bak
+
+# Site
+site/node_modules/
+site/dist/

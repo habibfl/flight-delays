@@ -1,0 +1,23 @@
+carrier_code,carrier_name,carrier_type
+AA,American Airlines,Grande compagnie
+DL,Delta Air Lines,Grande compagnie
+UA,United Airlines,Grande compagnie
+WN,Southwest Airlines,Low cost
+AS,Alaska Airlines,Grande compagnie
+B6,JetBlue Airways,Low cost
+NK,Spirit Airlines,Ultra low cost
+F9,Frontier Airlines,Ultra low cost
+G4,Allegiant Air,Ultra low cost
+HA,Hawaiian Airlines,Grande compagnie
+MX,Breeze Airways,Low cost
+OO,SkyWest Airlines,Régionale
+YX,Republic Airways,Régionale
+MQ,Envoy Air,Régionale
+9E,Endeavor Air,Régionale
+OH,PSA Airlines,Régionale
+QX,Horizon Air,Régionale
+ZW,Air Wisconsin,Régionale
+C5,CommuteAir,Régionale
+G7,GoJet Airlines,Régionale
+PT,Piedmont Airlines,Régionale
+YV,Mesa Airlines,Régionale
